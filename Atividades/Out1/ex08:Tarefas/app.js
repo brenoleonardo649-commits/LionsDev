@@ -1,0 +1,10 @@
+import tarefas from "./tarefas.js";
+import listarTarefas from "./listarTarefas.js";
+import removerTarefa from "./removerTarefa.js";
+console.log("--- Antes ---");
+listarTarefas(tarefas);
+removerTarefa(tarefas, 2);
+removerTarefa(tarefas, 3);
+removerTarefa(tarefas, 9);
+console.log("--- Depois ---");
+listarTarefas(tarefas);
